@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="339.0" style="-fx-background-color: #000080;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ConfiguracaoController">
+   <children>
+      <Label layoutX="28.0" layoutY="27.0" prefHeight="17.0" prefWidth="130.0" text="Duração do teste (seg):" textFill="#f8f5f5" />
+      <TextField fx:id="time" layoutX="158.0" layoutY="23.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="28.0" layoutY="70.0" text="O animal está no centro?" textFill="WHITE" />
+      <CheckBox layoutX="178.0" layoutY="70.0" mnemonicParsing="false" text="Sim" textFill="#fffefe" />
+      <Label layoutX="136.0" layoutY="106.0" text="Avaliações" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="28.0" layoutY="131.0" text="Locomoção" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <CheckBox layoutX="28.0" layoutY="160.0" mnemonicParsing="false" text="Quantidade de Quadrantes" textFill="#fffbfb" />
+      <CheckBox layoutX="28.0" layoutY="192.0" mnemonicParsing="false" text="Deslocamento Ordenado" textFill="WHITE" />
+      <CheckBox layoutX="28.0" layoutY="230.0" mnemonicParsing="false" text="Deslocamento Errático" textFill="WHITE" />
+      <CheckBox layoutX="28.0" layoutY="261.0" mnemonicParsing="false" text="Circular ou em Espiral" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="298.0" text="Interação Social" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="32.0" layoutY="327.0" mnemonicParsing="false" text="Ataque" textFill="#fffefe" />
+      <CheckBox layoutX="32.0" layoutY="359.0" mnemonicParsing="false" text="Esquivar" textFill="#fffefe" />
+      <CheckBox layoutX="30.0" layoutY="415.0" mnemonicParsing="false" text="Perseguição" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="448.0" text="Outros" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <CheckBox layoutX="33.0" layoutY="477.0" mnemonicParsing="false" text="Latência 1" textFill="WHITE" />
+      <CheckBox layoutX="32.0" layoutY="500.0" mnemonicParsing="false" text="Latência 2" textFill="#f8f8f8" />
+      <CheckBox layoutX="33.0" layoutY="524.0" mnemonicParsing="false" text="Latência 3" textFill="WHITE" />
+      <CheckBox layoutX="31.0" layoutY="388.0" mnemonicParsing="false" text="Empurar" textFill="WHITE" />
+      <Button fx:id="btConfirmar" layoutX="81.0" layoutY="555.0" mnemonicParsing="false" text="Confirmar" />
+      <Button fx:id="btCancelar" layoutX="178.0" layoutY="555.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</AnchorPane>
